@@ -1,0 +1,12 @@
+{
+    "name": "widuu/payment",
+    "description": "payment gateway",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "widuu",
+            "email": "admin@widuu.com"
+        }
+    ],
+    "require": {}
+}
