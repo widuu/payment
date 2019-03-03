@@ -1,6 +1,9 @@
 {
     "name": "widuu/payment",
     "description": "payment gateway",
+	"keywords": [
+        "payment"
+    ],
     "license": "Apache-2.0",
     "authors": [
         {
@@ -8,5 +11,12 @@
             "email": "admin@widuu.com"
         }
     ],
-    "require": {}
+	"require": {},
+	"autoload": {
+        "files": [],
+        "psr-4": {
+            "widuu\\": "src/widuu/"
+        }
+    },    
+	"minimum-stability": "dev"
 }
